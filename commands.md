@@ -12,8 +12,8 @@ docker build -t devops_lab .
 docker run -p 5000:5000 --name devops_lab devops_lab
 
 kubectl apply -f deployment.yaml
-kubectl get-deployment
+kubectl get deployments
 kubectl apply -f services.yaml
-kubectl get-services
+kubectl get services
 kubectl port-forward service/servicename 5000:5000 
 
