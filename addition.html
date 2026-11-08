@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Calculator</title>
+</head>
+<body>
+
+    <h2>Add Two Numbers</h2>
+
+    <input type="number" id="num1" placeholder="First Number">
+
+    <input type="number" id="num2" placeholder="Second Number">
+
+    <button id="addBtn" onclick="addNumbers()">Add</button>
+
+    <h3 id="result">Result: </h3>
+
+    <script>
+        function addNumbers() {
+            let a = Number(document.getElementById('num1').value);
+            let b = Number(document.getElementById('num2').value);
+
+            document.getElementById('result').innerText =
+                'Result: ' + (a + b);
+        }
+    </script>
+
+</body>
+</html>
