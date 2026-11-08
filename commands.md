@@ -15,5 +15,5 @@ kubectl apply -f deployment.yaml
 kubectl get deployments
 kubectl apply -f services.yaml
 kubectl get services
-kubectl port-forward service/servicename 5000:5000 
+kubectl port-forward service/devops-lab-service 5000:5000  
 
