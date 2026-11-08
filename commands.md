@@ -17,3 +17,6 @@ kubectl apply -f services.yaml
 kubectl get services
 kubectl port-forward service/devops-lab-service 5000:5000  
 
+
+npm install selenium-webdriver
+node test.js
