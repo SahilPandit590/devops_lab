@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: devops-lab
-          image: SahilPandit590/devops_lab:1.0
+          image: sahilpandit/devops_lab:1.0
           ports:
             - containerPort: 5000
