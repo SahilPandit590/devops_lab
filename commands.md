@@ -8,8 +8,8 @@ git branch -M main
 git push -u origin main
 
 docker ps -a
-docker build -t myapp .
-docker run -d -p 5000:5000 myapp imagename
+docker build -t devops_lab .
+docker run -p 5000:5000 --name devops_lab devops_lab
 
 kubectl apply -f deployment.yaml
 kubectl get-deployment
